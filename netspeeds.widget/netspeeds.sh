@@ -38,7 +38,7 @@ apkbin=`echo "scale=2; $apsubin/1024;" | bc`
 apkbout=`echo "scale=2; $apsubout/1024;" | bc`
 
 #AIRPORT: get IP address
-airip=`ifconfig en1 | grep -E "(inet |status:)" | head -n 1 | awk '{ print $2}'`
+airip=`ifconfig en10 | grep -E "(inet |status:)" | head -n 1 | awk '{ print $2}'`
 etherip=`ifconfig en0 | grep -E "(inet |status:)" | head -n 1 | awk '{ print $2}'`
 
 
