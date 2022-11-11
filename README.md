@@ -3,6 +3,7 @@
   <head>
   </head>
   <body>
+    <p>Credits to the author of each widgets.</p>
     <p><h2>cpu-bar-widget</h2><img src=cpu-bar-widget.png/></p>
     <p><h2>memory-bar-widget</h2><img src=memory-bar-widget.png/></p>
     <p><h2>diskusage-widget</h2><img src=diskusage-widget.png/></p>
